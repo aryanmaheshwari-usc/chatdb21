@@ -9,7 +9,7 @@ def connect_mysql():
     connection = pymysql.connect(
         host='localhost',
         user='root',
-        password='Pinnacle232',
+        password='',
         db='market_data',
         charset='utf8mb4',
         cursorclass=pymysql.cursors.DictCursor
@@ -21,8 +21,8 @@ def connect_postgres():
     connection = psycopg2.connect(
         host="localhost",
         database="market_data",
-        user="aryanmaheshwari",
-        password="260302"
+        user="",
+        password=""
     )
     return connection
 
