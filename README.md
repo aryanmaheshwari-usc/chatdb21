@@ -1,28 +1,33 @@
-# chatdb21
-# 🧠 Natural Language Query Interface for MySQL and MongoDB (LLM-Powered) <br>
+# ChatDB 21 🧠📊
 
-# This project is a Streamlit web application that allows users to interact with **MySQL** and **MongoDB** databases using **natural language queries**. The app uses **OpenAI's GPT-4 model** to convert user input into executable SQL or MongoDB queries, then displays the results. <br>
+**AI-Powered Natural Language Interface for Financial Markets & Investment Analysis**
 
-# It supports: <br>
-# - Schema-aware SQL generation for structured market data (in MySQL) <br>
-# - Structured MongoDB command generation for unstructured text collections (like news and earnings transcripts) <br>
-# - Fully dynamic execution of generated queries <br>
+ChatDB 21 enables users to interact with complex financial and sentiment data using plain English queries. It converts natural language into SQL or MongoDB queries, pulls the data from structured (MySQL) and unstructured (MongoDB) databases, and visualizes the result in an intuitive format.
 
-# --- <br>
+---
 
-## ✅ Prerequisites <br>
+## 📌 Features
 
-### 📦 Software Requirements <br>
-# Before running this app, make sure you have the following installed: <br>
+- 💬 Natural language query interface (powered by GPT-4)
+- 🗃️ Dual DB support: MySQL (market data) + MongoDB (news/sentiment)
+- 📊 Interactive data visualizations
+- 🔌 Real-time data fetching via Alpha Vantage API
+- 🌐 Clean frontend built using Streamlit
 
-# 1. **Python 3.8+** <br>
-# 2. **MySQL Server** (ensure the `market_data` database is created and running) <br>
-# 3. **MongoDB Server** (running locally on `localhost:27017`) <br>
-# 4. **pip** for installing Python packages <br>
+---
 
-### 🔑 API Key <br>
-# You must have an **OpenAI API key** (preferably with GPT-4 access). <br>
+## 🧰 Prerequisites
 
-# Replace the API key placeholder in the script: <br>
-# ```python  
-# openai.api_key = 'sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' 
+Before running the project, ensure you have the following installed:
+
+### 🔧 Required Software
+
+- Python 3.8+
+- Git
+- MySQL Server (local host: 3306)
+- MongoDB Server (running locally on localhost:27017)
+
+### 🔐 API Key Required
+
+- **Alpha Vantage API Key**  
+  Get yours here: [https://www.alphavantage.co/support/#api-key](https://www.alphavantage.co/support/#api-key)
