@@ -24,8 +24,8 @@ Before running the project, ensure you have the following installed:
 
 - Python 3.8+
 - Git
-- MySQL Server
-- MongoDB Server
+- MySQL Server (local host: 3306)
+- MongoDB Server (running locally on localhost:27017)
 
 ### 🔐 API Key Required
 
